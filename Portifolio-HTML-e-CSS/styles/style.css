@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
-:root{
+:root {
     --cor-primaria: #00161B;
     --cor-secundaria: #22D4FD;
     --cor-texto: #F6F6F6;
@@ -10,22 +10,22 @@
     --fonte-secundaria: 'Montserrat', sans-serif;
 }
 
-body{
+body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-texto);
 }
 
-.cabecalho{
+.cabecalho {
     padding: 2% 0% 0% 15%;
 }
 
-.cabecalho_menu{
+.cabecalho_menu {
     display: flex;
     gap: 80px;
 }
 
-.cabecalho_menu_link{
+.cabecalho_menu_link {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
@@ -33,14 +33,15 @@ body{
     text-decoration: none;
 }
 
-.apresentacao{
+.apresentacao {
     margin: 5% 15%;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 82px;
+    gap: 5rem;
 }
-.apresentacao_conteudo{
+
+.apresentacao_conteudo {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -48,32 +49,36 @@ body{
     gap: 40px;
 }
 
-.apresentacao_conteudo_titulo{
+#home .apresentacao_conteudo * {
+    margin: 0px;
+}
+
+.apresentacao_conteudo_titulo {
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
 }
 
-.apresentacao_conteudo_subtitulo{
+.apresentacao_conteudo_subtitulo {
     font-size: 1.5rem;
     font-family: var(--fonte-primaria);
 }
 
-.titulo-destaque{
+.titulo-destaque {
     color: var(--cor-secundaria);
 }
 
-ul li::marker{
+ul li::marker {
     content: '➤ ';
     font-size: 1.5rem;
     color: var(--cor-secundaria);
 }
 
-.apresentacao_conteudo_texto{
+.apresentacao_conteudo_texto {
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao_links{
+.apresentacao_links {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,13 +86,13 @@ ul li::marker{
     gap: 32px;
 }
 
-.apresentacao_links_subtitulo{
+.apresentacao_links_subtitulo {
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 1.5rem;
 }
 
-.apresentacao_links_navegacao{
+.apresentacao_links_navegacao {
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -103,15 +108,15 @@ ul li::marker{
     font-family: var(--fonte-secundaria);
 }
 
-.apresentacao_links_link:hover{
+.apresentacao_links_navegacao:hover {
     background-color: var(--cor-hover-link);
 }
 
-.apresentacao_imagem{
-    width: 50%;
+.apresentacao_imagem {
+    width: 30rem;
 }
 
-.rodape{
+.rodape {
     padding: 24px;
     text-align: center;
     color: black;
