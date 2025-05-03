@@ -31,6 +31,10 @@ O projeto é composto por duas páginas principais:
 - Links para redes sociais.
 - Layout estilizado com fontes do Google Fonts.
 
+## 🚀 Como Visualizar
+
+Acesse o link: https://portifolio-html-e-css-zeta.vercel.app/
+
 ## 📸 Captura de Tela
 
 ![Screenshot do site](./assets/screenshot-home.png)
